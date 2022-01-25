@@ -1,12 +1,37 @@
 @import url(reset.css);
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.snackbar{
+    position: fixed;
+    border-radius: 0.2rem;
+    opacity: 0.5;
+    bottom: 1rem;
+    /* z-index: 2; */
+    left: 1rem;
+    height: 2rem;
+    width: 20rem;
+    background-color: #3f3f46;
+}
 .cards-div{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
+.card-margin{
+    margin: 2rem;
+}
+body{
+    background-color: #bae6fd;
+}
+
+
 /* Default Card */
 .header{
     display: flex;
+
     flex-direction: column;
 }
 .default-card{
@@ -52,13 +77,13 @@
     justify-content: space-between;
     background-color: #e0f2fe;
     height: 9rem;
-    width: 23rem;
+    width: 19rem;
 }
 .horizontal-card .header .header-image-text-div{
     display: flex;
 }
 .horizontal-card .header .header-image-text-div .header-image{
-    width: 50%;
+    width: 45%;
 }
 .horizontal-card .hearder-text-secondary{
     display: none;
@@ -66,7 +91,17 @@
 /* Text over Media */
 .card-text-overlap{
     background-color: #e0f2fe;
-    height: 23rem;
+    height: 18rem;
     width: 19rem;
 }
-.card-text-overlap 
+.card-text-overlap .hearder-text-primary{
+    position: relative;
+    bottom: 5.5rem;
+    background-image: linear-gradient(to bottom, rgba(224, 242, 254, 0), rgba(224, 242, 254, 1));
+}
+.card-text-overlap .header-image-text-div{
+    max-height: 11rem;
+}
+.no-icon {
+    display: none;
+}
