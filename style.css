@@ -1,0 +1,72 @@
+@import url(reset.css);
+.cards-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* Default Card */
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.default-card{
+    background-color: #e0f2fe;
+    height: 23rem;
+    width: 19rem;
+}
+.small-text{
+    font-size: small;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.little-padding{
+    padding: 0.5rem;
+}
+.icons{
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+.icons:hover{
+    cursor: pointer;
+    background-color: #7dd3fc;
+    color: white;
+}
+
+/* Card w/ Header */
+.card-w-header{
+    background-color: #e0f2fe;
+    height: 23rem;
+    width: 19rem;
+}
+.card-w-header .header-image-text-div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* Horizontal Image and Text */
+.horizontal-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e0f2fe;
+    height: 9rem;
+    width: 23rem;
+}
+.horizontal-card .header .header-image-text-div{
+    display: flex;
+}
+.horizontal-card .header .header-image-text-div .header-image{
+    width: 50%;
+}
+.horizontal-card .hearder-text-secondary{
+    display: none;
+}
+/* Text over Media */
+.card-text-overlap{
+    background-color: #e0f2fe;
+    height: 23rem;
+    width: 19rem;
+}
+.card-text-overlap 
