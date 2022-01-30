@@ -38,6 +38,4 @@ function stacked() {
     console.log("thrid")
     
 }
-function name(params) {
-    console.log("hello");
-}
+console.log("hello");
