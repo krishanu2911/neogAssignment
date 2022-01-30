@@ -42,7 +42,7 @@ main{
     border: none;
     width: 5rem;
     height: 2.5rem;
-    
+    cursor: pointer;
     /* background-color: hsla(0, 0%, 50%, 0.24); */
     border-radius: 1rem;
 }
