@@ -6,7 +6,7 @@ mainDialog[0].addEventListener("click", clickHandler);
  function clickHandler(event) {
     //  console.log(event.target.closest(".dialog"));
     if(event.target.closest(".dialog")) return;
-    
+
     mainDialog[0].classList.remove("open");
 }
 mainDialog[2].addEventListener("click", clickHandler2);
@@ -38,3 +38,4 @@ function stacked() {
     console.log("thrid")
     
 }
+console.log("hello");
